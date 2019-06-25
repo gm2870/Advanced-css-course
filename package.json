@@ -1,0 +1,22 @@
+{
+  "name": "jonas-advanced-css-course",
+  "version": "1.0.0",
+  "description": "natours project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gm2870/Advanced-css-course.git"
+  },
+  "author": "ali farzanegan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gm2870/Advanced-css-course/issues"
+  },
+  "homepage": "https://github.com/gm2870/Advanced-css-course#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
