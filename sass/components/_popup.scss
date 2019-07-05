@@ -1,0 +1,14 @@
+.popup{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba($color-gray-dark,0.5);
+    &__content{
+        width: 80%;
+        background-color: $color-white;
+        margin:0 auto;
+        &-img {
+            max-width: 100%;
+        }
+    }
+   
+}
